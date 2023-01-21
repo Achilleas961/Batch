@@ -1,6 +1,5 @@
 @echo off
 title Random Alpha 1.1
-color 6
 echo Tento program otestuje, jestli prikaz random dovede opravdu vygenerovat vsechny cisla od 0 az do 32 768
 echo.
 pause
