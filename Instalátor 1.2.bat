@@ -1,11 +1,10 @@
 @echo off
-color e
-title Instalator
+title Instalator 1.2
 net session
 cls
-if %errorlevel% neq 0 (echo Program je lepsi spustit s opravnenim spravce, pro lepsi vysledky program restartujte a nasledne spustte znovu s vyssim opravnenim... & pause > nul)
+if %errorlevel% neq 0 (echo Run the administrator & pause > nul)
 C:
-cd "C:\Users\%username%\downloads"
+cd "C:\Users\achil\downloads"
 
 set /p aplikace=Zadejte nazev aplikace, kterou chcete nainstalovat: 
 :start
